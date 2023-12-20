@@ -126,11 +126,6 @@ img {
   font-weight: var(--font-semi);
 }
 
-.inline-items {
-    display: inline-block;
-    vertical-align: middle; /* Aligns the elements vertically */
-    margin-right: 10px; /* Adds some space between the elements */
-}
 
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -247,6 +242,11 @@ img {
   background-color: #ffffff;
 }
 
+.inline-items div {
+    display: inline-block;
+    vertical-align: middle; /* Aligns the elements vertically */
+    margin-right: 10px; /* Adds some space between the elements */
+}
 /*BUTTONS*/
 .button {
   display: inline-block;
