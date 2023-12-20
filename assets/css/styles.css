@@ -126,7 +126,7 @@ img {
   font-weight: var(--font-semi);
 }
 
-.inline-items div {
+.inline-items {
     display: inline-block;
     vertical-align: middle; /* Aligns the elements vertically */
     margin-right: 10px; /* Adds some space between the elements */
