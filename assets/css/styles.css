@@ -229,6 +229,7 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  background-color: transparent;
 }
 
 .home__blob {
@@ -237,7 +238,7 @@ img {
 
 .home__blob-img {
   width: 450px;
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
 /*BUTTONS*/
