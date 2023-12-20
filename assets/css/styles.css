@@ -126,6 +126,12 @@ img {
   font-weight: var(--font-semi);
 }
 
+.inline-items div {
+    display: inline-block;
+    vertical-align: middle; /* Aligns the elements vertically */
+    margin-right: 10px; /* Adds some space between the elements */
+}
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -192,7 +198,7 @@ img {
 .home {
   position: relative;
   row-gap: 5rem;
-  padding: 4rem 0 5rem;
+  padding: 2rem 0 2rem;
 }
 
 .home__data {
@@ -237,7 +243,7 @@ img {
 }
 
 .home__blob-img {
-  width: 450px;
+  width: 475px;
   background-color: #ffffff;
 }
 
@@ -264,6 +270,7 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
+  text-align: center;
 }
 
 .about__img {
